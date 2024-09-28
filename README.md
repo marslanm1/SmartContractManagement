@@ -1,6 +1,5 @@
-#Smart Contract Management
+## Smart Contract Management
 My ATM
-
 ## Overview
 
 "My ATM" is a web application that serves as a user-friendly frontend for interacting with a smart contract-based ATM system. This project utilizes React and Next.js to provide seamless interactions with the deployed smart contract, allowing users to deposit and withdraw Ethereum easily.
