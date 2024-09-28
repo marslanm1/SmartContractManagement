@@ -1,12 +1,65 @@
-# Starter Next/Hardhat Project
+#Smart Contract Management
+My ATM
 
-After cloning the github, you will want to do the following to get the code running on your computer.
+## Overview
 
-1. Inside the project directory, in the terminal type: npm i
-2. Open two additional terminals in your VS code
-3. In the second terminal type: npx hardhat node
-4. In the third terminal, type: npx hardhat run --network localhost scripts/deploy.js
-5. Back in the first terminal, type npm run dev to launch the front-end.
+"My ATM" is a web application that serves as a user-friendly frontend for interacting with a smart contract-based ATM system. This project utilizes React and Next.js to provide seamless interactions with the deployed smart contract, allowing users to deposit and withdraw Ethereum easily.
 
-After this, the project will be running on your localhost. 
-Typically at http://localhost:3000/
+## Table of Contents
+
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contract Interaction](#contract-interaction)
+- [License](#license)
+
+## Features
+
+- Connect your MetaMask wallet to interact with the ATM.
+- Deposit and withdraw Ethereum through a simple interface.
+- View your current balance in the application.
+
+## Technologies Used
+
+- **React**: A JavaScript library for building user interfaces.
+- **Next.js**: A React framework for server-rendered applications.
+- **Ethers.js**: A library for interacting with the Ethereum blockchain.
+- **MetaMask**: A browser extension for managing Ethereum wallets.
+
+## Installation
+
+1. **Clone the Repository**
+
+   ```bash
+   git clone <repository-url>
+   cd my-atm-project
+   ```
+
+2. **Install Dependencies**
+
+   Make sure you have Node.js and npm installed. Run the following command:
+
+   ```bash
+   npm install
+   ```
+
+## Usage
+
+1. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+2. Open your browser and go to `http://localhost:3000`.
+
+3. Connect your MetaMask wallet to interact with the ATM.
+
+## Contract Interaction
+
+This frontend interacts with a smart contract deployed on the Ethereum blockchain. The contract allows users to deposit and withdraw funds, ensuring that only the owner of the account can perform these actions.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
